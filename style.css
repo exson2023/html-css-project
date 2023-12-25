@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    margin: 0px;
+}
+
+.container{
+    margin: 0rem 4rem;
+}
+
+li{
+    list-style: none;
+    font-weight: 800;
+}
+
+.nav-link{
+    display: flex;
+    gap: 20px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-box{
+    width: 50%;
+}
+
+.main-section{
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-btn{
+    background-color: rgb(249, 95, 95);
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding: 8px 50px;
+}
+
+.profile-pic{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 100%;
+    box-shadow: -5px 15px rgb(219, 255, 255);
+}
+
+.recent-post-bg{
+    background-color: rgb(219, 255, 255) ;
+}
+
+.react-post-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.view-all-link{
+    text-decoration: none;
+    color: rgb(0, 184, 184);
+}
+
+.recent-post-content{
+    display: flex;
+    gap: 15px;
+}
+
+.post-box{
+    background-color: white;
+    margin: 15px 0px;
+    padding: 20px;
+}
+
+.featured-box{
+    display: flex;
+    gap: 25px;
+}
+
+.featured-box-card{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.badge{
+    background-color: darkblue;
+    color: white;
+    font-weight: 800;
+    border-radius: 35px;
+    padding: 5px 15px;
+}
+
+.footer{
+    margin: 50px 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+i{
+    font-size: 30px;
+    padding: 0px 15px;
+}
+
+
+@media screen and (max-width: 600px){
+    .profile-pic{
+        display: none;
+    }
+}
